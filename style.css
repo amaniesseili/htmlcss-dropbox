@@ -127,7 +127,7 @@ spazio tra le due input radio?*/
 
 .vertical-col{
     border: solid 1px;
-    width: 250px;
+    width: 240px;
     height: auto;
     margin-top: 50px;
     padding: var(--default-padding);
@@ -135,7 +135,7 @@ spazio tra le due input radio?*/
 }
 .subscription{
     border: solid 1px;
-    width: 245px;
+    width: 240px;
     padding: 5px;
     position: absolute;
     top: 0;
@@ -164,9 +164,8 @@ h3{
 
 .btn-free-sub{
     font-size: 10px;
-    padding-left: 23px;
-    padding-right: 23px;
     margin-bottom: 20px;
+    width: 200px;
 }
 
 hr{
@@ -192,7 +191,39 @@ ul{
 
 .container-flex-col{
     display: flex;
-    width: 100%;
-    gap: 30px;
+    max-width: 100%;
+    gap: 38px;
 
+}
+
+/* horizontal row -first section- main */
+
+
+.row{
+    flex-wrap: wrap;
+}
+
+.horizontal-row{
+    border: solid 1px;
+    width: 800px;
+    height: auto;
+    padding: var(--default-padding);
+    position: relative;
+    }
+
+    .team{
+        border: solid 1px;
+        width: 800px;
+        padding: 5px;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+    }
+.btn-uff-vendita{
+    font-size: 10px;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 200px;
 }
