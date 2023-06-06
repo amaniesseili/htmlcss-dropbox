@@ -60,7 +60,47 @@
 
 .hero{
     background-color: var(--primary-color-light);
-    height: 450px;
+    height: 500px;
     display: flex;
     padding: var(--default-padding);
+}
+
+.hero-container{
+    max-width: 900px;
+    margin: auto;
+    height:100%;
+    position: relative;
+}
+
+h1{
+    font-size: 50px;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.testo{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.btn-hero{
+    margin-bottom: 20px;
+}
+
+.img{
+    background-image: url(img/jumbo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    right: 0;
+    bottom: -80px;
+}
+
+.fa-arrow-down{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-size: 30px;
 }
