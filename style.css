@@ -2,50 +2,65 @@
     --primary-color-light:  #B4D0E7;
     --secondary-color-dark: #0061FF;
     --footer-color: black;
+    --default-bg-color: white; 
     --default-padding: 20px;
+    --default-gap: 20px;
 }
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .bg-nav{
-    background-color: var(--primary-color-light);
+    background-color: var(--default-bg-color);
     height: 60px;
     display: flex;
     padding: var(--default-padding);
-    
 }
 .container-flex{
     display: flex;
+    width: 100%;
+    justify-content: space-between;
 }
 
-
-.nav-left{
-    background-color: red;
-    
+.logo{
+    background-size: contain;
+    height: auto;
+    display: flex;
+    gap: var(--default-gap);
+    align-items: center;
 }
-
-.nav-right{
-    background-color: green;
-}
-
-
 .nav ul{
     display: flex;
     list-style: none;
-    gap: 20px;
+    gap: var(--default-gap);
+    color: gray;
+    padding-right: var(--default-padding);
 }
-
 
 .button{
     border: none;
     background-color: var(--secondary-color-dark);
     padding: 5px;
-    
+    color: white;
 }
+
 .btn-inizia{
     width: 60px;
 
+}
+.amani{
+    display: flex;
+    align-items: center;
+}
+
+/* header- section class="hero" */
+
+.hero{
+    background-color: var(--primary-color-light);
+    height: 450px;
+    display: flex;
+    padding: var(--default-padding);
 }
