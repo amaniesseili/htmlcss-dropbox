@@ -1,0 +1,47 @@
+:root{
+    --primary-color-light:  #B4D0E7;
+    --secondary-color-dark: #0061FF;
+    --footer-color: black;
+    --default-padding: 20px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.menu-nav{
+    background-color: var(--primary-color-light);
+    height: 60px;
+    display: flex;
+    
+}
+.nav{
+    justify-content: space-between;
+}
+.nav-left{
+    background-color: red;
+    height: 40px;
+}
+
+.nav-right{
+    background-color: green;
+    height: 40px;
+}
+.container-flex{
+    display: flex;
+}
+
+
+.nav ul{
+    display: flex;
+    list-style: none;
+    
+}
+
+
+.button{
+    border: none;
+    background-color: var(--secondary-color-dark);
+    padding: .7rem 1rem;
+}
