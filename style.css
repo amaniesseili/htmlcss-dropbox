@@ -104,3 +104,95 @@ h1{
     bottom: 0;
     font-size: 30px;
 }
+
+
+/* inizio-main: first section */
+
+.section-container{
+    max-width: 800px;
+    margin: auto;
+    height:600px;
+    padding-top: 100px;
+}
+
+h2{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+/* .radio{
+    gap: var(--default-gap);
+}  
+perche nn riesco a dare lo 
+spazio tra le due input radio?*/
+
+.vertical-col{
+    border: solid 1px;
+    width: 250px;
+    height: auto;
+    margin-top: 50px;
+    padding: var(--default-padding);
+    position: relative;
+}
+.subscription{
+    border: solid 1px;
+    width: 245px;
+    padding: 5px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    
+}
+.fa-user{
+    font-size: 13px;
+}
+
+h3{
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.small{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.description{
+    margin-top: 40px;
+}
+
+.btn-free-sub{
+    font-size: 10px;
+    padding-left: 23px;
+    padding-right: 23px;
+    margin-bottom: 20px;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.divide-col{
+    width: 40px;
+    color: black;
+    
+}
+h5{
+    margin-bottom: 30px;
+}
+.fa-check{
+    color: var(--secondary-color-dark);
+    font-size: small;
+}
+
+ul{
+    list-style: none;
+}
+
+.container-flex-col{
+    display: flex;
+    width: 100%;
+    gap: 30px;
+
+}
