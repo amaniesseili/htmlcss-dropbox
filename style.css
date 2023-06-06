@@ -87,7 +87,7 @@ h1{
     margin-bottom: 20px;
 }
 
-.img{
+.img-hero{
     background-image: url(img/jumbo.png);
     background-size: contain;
     background-repeat: no-repeat;
@@ -206,7 +206,7 @@ ul{
 .horizontal-row{
     border: solid 1px;
     width: 800px;
-    height: auto;
+    height: 240px;
     padding: var(--default-padding);
     position: relative;
     }
@@ -227,3 +227,12 @@ ul{
     right: 20px;
     width: 200px;
 }
+
+/* section 2 */
+/* .img{
+    background-image: url();
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 350px;
+} */
