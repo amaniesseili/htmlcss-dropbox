@@ -2,7 +2,7 @@
     --primary-color-light:  #B4D0E7;
     --secondary-color-dark: #0061FF;
     --footer-color: black;
-    --default-bg-color: white; 
+    --default-bg-color: white;
     --default-padding: 20px;
     --default-gap: 20px;
 }
@@ -111,7 +111,6 @@ h1{
 .section-container{
     max-width: 800px;
     margin: auto;
-    height:600px;
     padding-top: 100px;
 }
 
@@ -121,8 +120,8 @@ h2{
 }
 /* .radio{
     gap: var(--default-gap);
-}  
-perche nn riesco a dare lo 
+}
+perche nn riesco a dare lo
 spazio tra le due input radio?*/
 
 .vertical-col{
@@ -132,16 +131,18 @@ spazio tra le due input radio?*/
     margin-top: 50px;
     padding: var(--default-padding);
     position: relative;
+    flex-wrap: 1;
+    flex-basis: 0;
 }
 .subscription{
-    border: solid 1px;
+    border-bottom: solid 1px;
     width: 240px;
     padding: 5px;
     position: absolute;
     top: 0;
     left: 0;
     text-align: center;
-    
+
 }
 .fa-user{
     font-size: 13px;
@@ -175,7 +176,7 @@ hr{
 .divide-col{
     width: 40px;
     color: black;
-    
+
 }
 h5{
     margin-bottom: 30px;
@@ -212,7 +213,7 @@ ul{
     }
 
     .team{
-        border: solid 1px;
+        border-bottom: solid 1px;
         width: 800px;
         padding: 5px;
         position: absolute;
@@ -229,10 +230,28 @@ ul{
 }
 
 /* section 2 */
-/* .img{
-    background-image: url();
+.img{
+    background-image: url(img/partner.png);
     background-size: contain;
     background-repeat: no-repeat;
     width: 600px;
     height: 350px;
-} */
+} 
+
+.container-flex-section{
+    display: flex;
+    width: 100%;
+    
+}
+
+.section-container .testo{
+    margin-left:-40px;
+    margin-top: 40px;
+}
+
+.btn-border{
+    border: solid 1px black;
+    background-color: white;
+    color: black;
+    margin-top: 30px;
+}
