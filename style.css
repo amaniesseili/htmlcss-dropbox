@@ -274,3 +274,83 @@ ul{
     width: 240px;
     align-items: stretch;
 }
+
+ /* 4t section grid css grid of square with flexbox  */
+/* 
+ .flex-container {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+   
+    line-height:30px;
+}
+.flex-item {
+    background: tomato;
+    margin: 2px;
+    color: white;
+    flex: 1 0 auto;
+    height:auto;
+}
+.flex-item::before {
+    content:'';
+    float:left;
+    padding-top:100%;
+} */
+
+/* .grid-flexbox{
+    background-color: var(--primary-color-light);
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.between-grid{
+    background-color: var(--default-bg-color);
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+
+} */
+.bg-sec{
+    background-color: var(--primary-color-light);
+    height: 150px;
+    display: flex;
+    padding: var(--default-padding);
+    
+}
+
+.section-container-b{
+    max-width: 800px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+
+
+}
+#font-color{
+    color: rgb(114, 62, 62);
+    align-items: center;
+    padding-top: 0;
+    margin-right: 100px;
+    
+}
+
+.btn-grid-sec{
+    background-color: white;
+    color: black;
+    padding: 1px 50px;
+    height: 30px;
+    
+    
+}
