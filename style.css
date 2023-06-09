@@ -240,13 +240,13 @@ ul{
 
 .container-flex-section{
     display: flex;
-    width: 100%; 
+    width: 100%;
 }
 
 .section-container .testo{
     margin-left:-40px;
     margin-top: 40px;
-    
+
 }
 
 .btn-border{
@@ -265,7 +265,7 @@ ul{
 
 .container-flex-section2{
     display: flex;
-    width: 100%; 
+    width: 100%;
     flex-wrap: wrap;
     gap: 30px;
 }
@@ -285,6 +285,8 @@ e per farli quadrati perfetti devo aggiungere la proprieta aspect-ratio :1/1 */
     border: 1px solid red;
     width: calc(100% / 3);
     aspect-ratio: 1/1;
+    display: flex;
+    flex-wrap: wrap;
 }
 /* per affiancare l'elementi metto il padre in display flex */
 .square-container{
@@ -294,14 +296,18 @@ e per farli quadrati perfetti devo aggiungere la proprieta aspect-ratio :1/1 */
 .box-container .box{
     border: 1px solid blue;
     width: 50%;
-    min-height: 50px;
+    height: 50%;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
 }
 
-.container-flex-grid{
-    display: flex;
-    flex-wrap: wrap;
+/* perche i logo nn si rimpicioliscono nonostante il percentuale del width? */
+.box-container .box .svg {
+    width: 25%;
+    height: auto;
+    border: 20px solid red;
 }
 
 
@@ -311,7 +317,7 @@ e per farli quadrati perfetti devo aggiungere la proprieta aspect-ratio :1/1 */
     height: 150px;
     display: flex;
     padding: var(--default-padding);
-    
+
 }
 
 .section-container-b{
@@ -328,7 +334,7 @@ e per farli quadrati perfetti devo aggiungere la proprieta aspect-ratio :1/1 */
     align-items: center;
     padding-top: 0;
     margin-right: 100px;
-    
+
 }
 
 .btn-grid-sec{
@@ -343,7 +349,7 @@ e per farli quadrati perfetti devo aggiungere la proprieta aspect-ratio :1/1 */
 }
 .section-container-b h3{
     margin-top: 70px;
-    
+
 }
 
 
