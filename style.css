@@ -170,8 +170,8 @@ h3{
 }
 
 hr{
-    margin-top: 30px;
-    margin-bottom: 30px;
+    margin-top: 50px;
+    margin-bottom: 40px;
 }
 .divide-col{
     width: 40px;
@@ -375,3 +375,10 @@ ul{
     display: block;
  perche nn funzione l'hover?
 } */
+
+.bg-footer{
+    background-color: var(--);
+    height: 60px;
+    display: flex;
+    padding: var(--default-padding);
+}
