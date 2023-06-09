@@ -335,6 +335,7 @@ ul{
     margin: auto;
     display: flex;
     align-items: center;
+    justify-content: space-between;
 
 
 }
@@ -351,6 +352,26 @@ ul{
     color: black;
     padding: 1px 50px;
     height: 30px;
-    
+}
+
+.section-container hr{
+    margin-top: -90px;
+}
+.section-container-b h3{
+    margin-top: 70px;
     
 }
+
+
+.display-flex{
+    display: flex
+}
+
+
+.lorem-hover{
+    display: none;
+}
+/* .p:hover .lorem-hover{
+    display: block;
+ perche nn funzione l'hover?
+} */
