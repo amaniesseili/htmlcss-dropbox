@@ -377,8 +377,50 @@ ul{
 } */
 
 .bg-footer{
-    background-color: var(--);
-    height: 60px;
+    background-color: var(--footer-color);
+    height: auto;
     display: flex;
     padding: var(--default-padding);
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+.hero-container ul{
+    list-style: none;
+    color: white;
+
+}
+li{
+    padding: 8px;
+}
+
+.m{
+    padding-right: 50px;
+
+}
+.m h4{
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    font-size: 14px;
+}
+
+.hero-container .divide-col{
+    color: white;
+    width: 100px;
+}
+
+.fa-earth-americas{
+    color: white;
+}
+.white-font{
+    color: white;
+}
+.fa-angle-up{
+    color: white;
+    display: flex;
+}
+.bg-footer .footer-end{
+    display: flex;
+    gap: 10px;
 }
